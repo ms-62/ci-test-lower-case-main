@@ -6,9 +6,10 @@ __pycache__/
 .vscode/
 .vscode/settings.json
 
-#복사로 생성되는 파일 업로드 방지
-.DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+# macOS 메타데이터 파일
 ._*
+.DS_Store
+
+# 폴더 내 모든 위치의 파일 무시
+**/.DS_Store
+**/._*
