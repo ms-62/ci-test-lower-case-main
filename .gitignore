@@ -7,4 +7,4 @@ __pycache__/
 .vscode/settings.json
 
 #복사로 생성되는 파일 업로드 방지
-./.*
+._*
